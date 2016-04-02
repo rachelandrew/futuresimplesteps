@@ -396,8 +396,10 @@ footer a:hover {
 }
 
 .book__image {
-	flex: 0 1 auto;
-	margin: 0 20px 0 0;
+  flex: 0 1 auto;
+  margin: 0 20px 0 0;
+  height: 240px;
+  width: 161px;
 }
 
 .book__links {
