@@ -5,6 +5,7 @@ author-website: "https://rachelandrew.co.uk"
 author-twitter: "rachelandrew"
 book-title: "CSS3 Layout Modules"
 book-edition: "2nd"
+book-slug: "css3-layout-modules"
 book-url: "https://rachelandrew.co.uk/books/css3-layout-modules"
 ---
 

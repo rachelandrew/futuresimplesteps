@@ -34,7 +34,7 @@
             <li>
               <h3>{{book.author-name}}</h3>
               <div class="book">
-                  <img src="images/{{book.book-title | slugify}}_medium.jpg" alt="{{book.book-title}}{% if book.book-edition %} {{book.book-edition}} edition{% endif %} cover">
+                  <img src="images/{{book.book-slug}}_medium.jpg" alt="{{book.book-title}}{% if book.book-edition %} {{book.book-edition}} edition{% endif %} cover">
                   <div class="details">
                     {{book.content}}
                   </div>

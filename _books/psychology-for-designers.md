@@ -4,6 +4,7 @@ author-name-short: "Joe"
 author-website: "https://mrjoe.uk/"
 author-twitter: "mrjoe"
 book-title: "Psychology for Designers"
+book-slug: "psychology-for-designers"
 book-url: "https://mrjoe.uk/psychology-for-designers/"
 ---
 
