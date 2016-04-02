@@ -21,4 +21,28 @@ The book blub goes here, and the format is Markdown.
 
 Edit the contents.
 
+Check to ensure there is a book image in the `images` directory with the filename `book-slug_medium.jpg`. Otherwise, we can help update the image for you, or you can add a new image following that filename structure.
+
 Commit the changes.
+
+#### If you have multiple authors
+
+You can add additional author names and Twitter handles:
+
+```
+author-name: "First Author and Second Author"
+author-name-short: "First"
+author-name-short2: "Second"
+author-twitter: "firsttwitter"
+author-twitter2: "secondtwitter"
+```
+
+#### If you are offering the book for free
+
+You can add one additional line:
+
+```
+free: true
+```
+
+This will change the button text to say "Read [Bookname]" instead of "Buy [Bookname]".
