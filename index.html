@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html>
   <head>
@@ -28,49 +30,22 @@
           <p>The closure of Five Simple Steps means that many authors are selling their books from their own sites. Please support them by purchasing directly from them, and recommending the books you have found useful.</p>
 
           <ul class="author-listing">
+            {% for book in site.books %}
             <li>
-              <h3>Joe Leech</h3>
-
+              <h3>{{book.author-name}}</h3>
               <div class="book">
-                  <img src="images/psychology-for-designers_medium.jpg" alt="Psychology for Designers cover">
+                  <img src="images/{{book.book-title | slugify}}_medium.jpg" alt="{{book.book-title}}{% if book.book-edition %} {{book.book-edition}} edition{% endif %} cover">
                   <div class="details">
-                    <p>Discover how understanding psychological research can enhance your design work and advocate your decisions.</p>
-
-
+                    {{book.content}}
                   </div>
               </div>
-
               <ul>
-                <li>Buy <a href="https://mrjoe.uk/psychology-for-designers/">Psychology for Designers</a></li>
-                <li><a href="https://mrjoe.uk/">Joe's website</a></li>
-                <li>Twitter <a href="https://twitter.com/mrjoe">@mrjoe</a></li>
+                <li>Buy <a href="{{book.book-url}}">{{book.book-title}}{% if book.book-edition %} {{book.book-edition}} edition{% endif %}</a></li>
+                <li><a href="{{book.author-website}}">{{book.author-name-short}}'s website</a></li>
+                <li>Twitter <a href="https://twitter.com/{{book.author-twitter}}">@{{book.author-twitter}}</a></li>
               </ul>
-
             </li>
-            <li>
-              <h3>Rachel Andrew</h3>
-
-              <div class="book">
-                  <img src="images/css3-layout-modules_medium.jpg" alt="CSS3 Layout Modules cover">
-                  <div class="details">
-                    <p>Explore some of the latest exciting CSS layout modules, including multicolumn layout, flexbox, grid layout, and more.</p>
-
-                    <p><em>The book available from Rachel's site is the second edition - self published.</em></p>
-
-
-                  </div>
-              </div>
-
-              <ul>
-                <li><a href="https://rachelandrew.co.uk/books/css3-layout-modules">Buy CSS3 Layout Modules 2nd edition</a></li>
-                <li><a href="https://rachelandrew.co.uk">Rachel's website</a></li>
-                <li>Twitter <a href="https://twitter.com/rachelandrew">@rachelandrew</a></li>
-              </ul>
-
-            </li>
-
-
-
+            {% endfor %}
           </ul>
         </section>
 
