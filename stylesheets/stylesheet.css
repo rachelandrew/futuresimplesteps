@@ -398,6 +398,8 @@ footer a:hover {
 .book__image {
   flex: 0 1 auto;
   margin: 0 20px 0 0;
+  min-height: 240px;
+  min-width: 161px;
   height: 240px;
   width: 161px;
 }
