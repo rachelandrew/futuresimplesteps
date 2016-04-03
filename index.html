@@ -37,7 +37,7 @@
                   <img src="images/{{book.book-slug}}_medium.jpg" alt="{{book.book-title}}{% if book.book-edition %} {{book.book-edition}} edition{% endif %} cover" class="book__image">
                   <div class="book__blurb">
                     {{book.content}}
-                    <a class="book__buy" href="{{book.book-url}}">Get {{book.book-title}}{% if book.book-edition %} {{book.book-edition}} edition{% endif %}</a>
+                    <a class="book__buy" href="{{book.book-url}}">{% if book.free %}Read{% else %}Buy{% endif %} {{book.book-title}}{% if book.book-edition %} {{book.book-edition}} edition{% endif %}</a>
                     <ul class="book__links">
                       {% if book.author-website %}<li><a href="{{book.author-website}}">{{book.author-name-short}}'s website</a></li>{% endif %}
                       <li><a href="https://twitter.com/{{book.author-twitter}}">@{{book.author-twitter}}</a></li>
