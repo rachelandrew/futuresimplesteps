@@ -1,5 +1,5 @@
 ---
-author-name: "Jon Hicks "
+author-name: "Jon Hicks"
 author-name-short: "Jon"
 author-website: "https://hicksdesign.co.uk"
 author-twitter: "hicksdesign"
