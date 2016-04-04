@@ -8,7 +8,7 @@ author-website: "http://tinybooks.org"
 author-website2: "http://nicklaspersson.com"
 book-title: "The Craft of Words: Parts 1 and 2 (Bundle)"
 book-slug: "the-craft-of-words"
-book-url: "gumroad.com/l/WKvpI"
+book-url: "https://gumroad.com/l/WKvpI"
 ---
 
 ‘The Craft of Words’ – now available as a discounted bundle, combining both books – examines the role of words as an integral part of the design process, shaping users’ experiences.
