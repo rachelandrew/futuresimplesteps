@@ -5,7 +5,7 @@ author-website: "https://webstandardistas.com"
 author-twitter: "standardistas"
 book-title: "The Craft of Words: Parts 1 and 2 (Bundle)"
 book-slug: "the-craft-of-words"
-book-url: "gumroad.com/l/WKvpI"
+book-url: "http://gumroad.com/l/WKvpI"
 ---
 
 ‘The Craft of Words’ – now available as a discounted bundle, combining both books – examines the role of words as an integral part of the design process, shaping users’ experiences.
