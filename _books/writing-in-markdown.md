@@ -5,7 +5,7 @@ author-website: "http://mattgemmell.com"
 author-twitter: "mattgemmell"
 book-title: "Writing in Markdown"
 book-slug: "writing-in-markdown"
-book-url: "https://mattgemmell.com/writing-in-markdown"
+book-url: "http://mattgemmell.com/writing-in-markdown"
 ---
 
 Markdown lets you use plain text formatting conventions that you've probably already seen a hundred times – and perhaps even used yourself – to make documents that are not only clean and readable as-is, but which can also be readily converted into HTML and other rich formats.
