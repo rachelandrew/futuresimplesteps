@@ -1,6 +1,6 @@
 ---
 author-name: "Christopher Murphy and Nicklas Persson"
-author-name-short: "The Standardises"
+author-name-short: "The Standardistas"
 author-website: "https://webstandardistas.com"
 author-twitter: "standardistas"
 book-title: "The Craft of Words: Parts 1 and 2 (Bundle)"
