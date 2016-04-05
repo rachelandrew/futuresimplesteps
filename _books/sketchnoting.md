@@ -5,6 +5,7 @@ author-website: "http://www.mearso.co.uk/"
 author-twitter: "mearso"
 book-title: "Sketchnoting"
 book-slug: "sketchnoting"
+boork-url: "http://www.mearso.co.uk/pocketguide/"
 
 ---
 
