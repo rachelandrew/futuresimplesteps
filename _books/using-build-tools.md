@@ -6,6 +6,7 @@ author-twitter: "gavd_UK"
 book-title: "Using Build Tools"
 book-slug: "using-build-tools"
 book-url: "http://radify.io/blog/using-build-tools/"
+free: true
 ---
 
 Graphic designers and web developers can offload a large chunk of their mundane work onto a set of tools which can automate away tedious tasks. These tools have offputting names like Gulp, Grunt and Broccoli, but with a little effort, they can save you hours of time, leaving you free to focus on being creative!
